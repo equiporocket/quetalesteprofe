@@ -21,20 +21,20 @@ body {
     background-color: #0080ff; /*agregar bg nuevo*/
 	}
 
-  header {
+header {
     position:relative;
     top: 40px;
   }
 
-.header-container {
+h1.main {
+  border: 2px, #fff;
 	color: #fff;
 	font-family: Roboto;
-  font-size: 12px;
-	font-weight: 400;
-	margin-bottom: 20px;
-	margin: auto;
+  font-size: 25px;
+	font-weight: 700;
 	text-align: center;
-	width: 800px;
+  position: relative;
+  top: 10px;
 }
 
 .searchbar {
@@ -50,4 +50,26 @@ body {
   opacity: 0.5;
   top: 20px;
   width: 800px;
+}
+
+.relog {
+   content:url(relog.png);
+   margin: auto;
+   position: relative;
+   bottom: 137px;
+   left: 365px;
+}
+
+.libros {
+   content:url(libros.png);
+   margin: auto;
+   position: relative;
+   bottom: 141px;
+   left: 760px;  
+}​
+
+
+.img{
+  height: 150px;
+  width: 150px;
 }
